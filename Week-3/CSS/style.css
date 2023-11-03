@@ -10,12 +10,12 @@ body {
 
 @font-face {
     font-family: "Montserrat";
-    src: url(/Week-1/assets/Fonts/Montserrat/static/Montserrat-Regular.ttf);
+    src: url(/Week-3/assets/Fonts/Montserrat/static/Montserrat-Regular.ttf);
 }
 
 @font-face {
     font-family: "Montserrat";
-    src: url(/Week-1/assets/Fonts/Montserrat/static/Montserrat-Bold.ttf);
+    src: url(/Week-3/assets/Fonts/Montserrat/static/Montserrat-Bold.ttf);
     font-weight: 800;
 }
 
@@ -425,7 +425,7 @@ form {
     align-items: center;
     gap: 10px;
     padding-top: 20px;
-    background-image: url(/Week-1/assets/images/background-img-i8.jpg);
+    background-image: url(/Week-3/assets/images/background-img-i8.jpg);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
