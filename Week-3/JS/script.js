@@ -24,10 +24,22 @@ hamburger.addEventListener("click", () => {
 
 // Toggle Darkmode
 const body = document.querySelector("body"), toggle = document.querySelector(".toggle")
+
+let getMode = localStorage.getItem("mode")
+if (getMode && getMode === "dark") {
+    body.classList.add("dark")
+    toggle.classList.add("active")
+}
+
 toggle.addEventListener("click", () => {
     body.classList.toggle("dark")
+
+    if (!body.classList.contains("dark")) {
+        return localStorage.setItem("mode", "light")
+    }
+    localStorage.setItem("mode", "dark")
 })
-const textBmwSeries = document.querySelector(".test1"), toggle2 = document.querySelector(".toggle")
+const textBmwSeries = document.querySelector(".popular-card"), toggle2 = document.querySelector(".toggle")
 toggle2.addEventListener("click", () => {
     textBmwSeries.classList.toggle("dark")
 })
