@@ -21,3 +21,14 @@ hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     rightNav.classList.toggle("active");
 })
+
+// Toggle Darkmode
+const body = document.querySelector("body"), toggle = document.querySelector(".toggle")
+toggle.addEventListener("click", () => {
+    body.classList.toggle("dark")
+})
+const textBmwSeries = document.querySelector(".test1"), toggle2 = document.querySelector(".toggle")
+toggle2.addEventListener("click", () => {
+    textBmwSeries.classList.toggle("dark")
+})
+toggle.addEventListener("click", () => toggle.classList.toggle("active"))
