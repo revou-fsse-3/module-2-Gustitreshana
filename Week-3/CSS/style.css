@@ -107,15 +107,15 @@ header {
     width: 50%;
 }
 
+/* Darkmode */
 body.dark {
     background-color: #18191a;
     color: #fff;
 }
 
-.test1.dark {
+.dark p {
     color: #fff;
 }
-
 .toggle {
     position: relative;
     width: 35%;
@@ -329,6 +329,8 @@ li>a:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
+    color: #18191a;
+    text-shadow: 3px 3px 5px #008ac9;
 }
 
 .popular-card>p {
@@ -336,7 +338,6 @@ li>a:hover {
     font-weight: 800;
     letter-spacing: 10px;
     text-shadow: 3px 3px 5px #008ac9;
-    color: #222222;
     margin-top: -30px;
 }
 
@@ -713,6 +714,36 @@ h5 {
 
     .logo {
         width: 13%;
+    }
+
+    .container-darkmode {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .toggle {
+        position: relative;
+        width: 140%;
+        height: 28px;
+        background-color: #008ac9;
+        border-radius: 100px;
+        box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+
+    .toggle::before {
+        content: "";
+        position: absolute;
+        width: 45%;
+        height: 23px;
+        background-color: #fff;
+        border-radius: 50%;
+        top: 50%;
+        left: 3px;
+        transform: translateY(-50%);
+        transition: all .3s ease-in-out;
     }
 
     .title-header {
