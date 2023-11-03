@@ -94,9 +94,8 @@ header {
 .text-right-nav {
     display: flex;
     font-size: 20px;
-    gap: 48px;
+    gap: 24px;
     font-weight: bold;
-    padding-right: 48px;
     list-style-type: none;
 }
 
