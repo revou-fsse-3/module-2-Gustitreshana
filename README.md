@@ -2,7 +2,8 @@
 
 ## My Bio
 Hello, my name is Gusti
-![photo](https://media.licdn.com/dms/image/D5603AQH1RNDSh6ZBPA/profile-displayphoto-shrink_800_800/0/1692458225575?e=2147483647&v=beta&t=KfzpjaxmAfIoEd6M_FmbCmrPOvXa9_LOc1ztTHBdTKs) 
+![photo](https://media.licdn.com/dms/image/D5603AQH1RNDSh6ZBPA/profile-displayphoto-shrink_800_800/0/1692458225575?e=2147483647&v=beta&t=KfzpjaxmAfIoEd6M_FmbCmrPOvXa9_LOc1ztTHBdTKs)
+
 I'm a private pilot at FASI (Federasi Aero Sport Indonesia). I'm a collage student at University of LIA Jakarta's, majoring in English.
 
 ## Education
