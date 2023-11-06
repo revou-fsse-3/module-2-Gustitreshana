@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMW Collections</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navbar -->
+    <header>
+        <nav class="nav-container">
+            <div class="left-nav">
+                <img class="logo" src="./assets/images/BMWlogo.jpg" alt="logo-bmw">
+                <h1 class="bmw-title">Bayerische Motoren Werke</h1>
+            </div>
+
+            <div class="right-nav">
+                <ul class="text-right-nav">
+                    <li><a class="text-menu" href="#form">Register</a></li>
+                    <li><a class="text-menu" href="https://www.instagram.com/gustitreshana/">About</a></li>
+                    <li><a class="text-menu" href="https://wa.me/08123456789">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Hamburger button -->
+            <div class="toggle-btn">
+                <button class="hamburger" onclick="burger(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </button>
+            </div>
+
+            <div class="container-darkmode">
+                <div class="toggle"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Title Header -->
+        <section class="container-TH">
+            <div class="title-header">
+                <h2 class="text-title-1">THIS IS COLLECTIONS OF BMW</h2>
+                <h3 class="text-title-2">LET'S START !</h3>
+            </div>
+
+            <div class="btn-header">
+                <button class="btn-menu-1" onclick="onClick1()">OLD VERSION</button>
+                <button class="btn-menu-2" onclick="onClick2()">NEW VERSION</button>
+            </div>
+        </section>
+        <!-- Video -->
+        <section class="video">
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/XaOrAnxEiI8?si=uqBU96tUyUCDvX0M"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+
+            <!-- GALLERY BMW -->
+            <section>
+                <h1 class="title-2">GALLERY</h1>
+                <div class="slider-photo">
+                    <figure>
+                        <img src="./assets/images/bmw-slide-1.jpg" alt="slide-1">
+                        <img src="./assets/images/bmw-slide-2.jpg" alt="slide-2">
+                        <img src="./assets/images/bmw-slide-3.jpg" alt="slide-3">
+                        <img src="./assets/images/bmw-slide-4.jpg" alt="slide-4">
+                        <img src="./assets/images/bmw-slide-1.jpg" alt="slide-1">
+                    </figure>
+                </div>
+            </section>
+
+            <!-- Popular Models Content -->
+        </section>
+        <h1 class="title-2">POPULAR MODELS</h1>
+        <section class="popular-bmw">
+            <div id="seri3" class="popular-card">
+                <img src="./assets/images/bmw-3-series.png" alt="bmw-3-series" class="bmw-series">
+                <p class="dark">BMW 3 Series</p>
+            </div>
+
+            <div id="seri5" class="popular-card">
+                <img src="./assets/images/bmw-5-series.png" alt="bmw-5-series" class="bmw-series">
+                <p>BMW 5 Series</p>
+            </div>
+
+            <div id="seri7" class="popular-card">
+                <img src="./assets/images/bmw-7-series.png" alt="bmw-7-series" class="bmw-series">
+                <p>BMW 7 Series</p>
+            </div>
+
+            <div id="x1" class="popular-card">
+                <img src="./assets/images/bmw-x1-series.png" alt="bmw-x1" class="bmw-series">
+                <p>BMW X1</p>
+            </div>
+
+            <div id="x3" class="popular-card">
+                <img src="./assets/images/bmw-x3-series.png" alt="bmw-x3" class="bmw-series">
+                <p>BMW X3</p>
+            </div>
+
+            <div id="x5" class="popular-card">
+                <img src="./assets/images/bmw-x5-series.png" alt="bmw-x5" class="bmw-series">
+                <p>BMW X5</p>
+            </div>
+        </section>
+
+        <section class="version-title">
+            <h1 class="title-2">OLD VERSION</h1>
+        </section>
+
+        <section class="photo">
+            <div class="card fit-height H-auto">
+                <img class="e30" src="./assets/images/bmw-e30.jpg" alt="bmw-e30" id="bmwE30">
+                <h4>BMW E30</h4>
+                <p class="text-card">Old but gold</p>
+            </div>
+
+            <div class="card fit-height H-auto">
+                <img class="e36" src="./assets/images/bmw-e36.jpg" alt="bmw-e36">
+                <h4>BMW E36</h4>
+                <p class="text-card">Still looks good</p>
+            </div>
+
+            <div class="card fit-height H-auto">
+                <img class="e46" src="./assets/images/bmw-e46.jpg" alt="bmw-e46">
+                <h4>BMW E46</h4>
+                <p class="text-card">Better than before</p>
+            </div>
+
+            <div class="card fit-height H-auto">
+                <img class="e90" src="./assets/images/bmw-e90.jpg" alt="bmw-e90">
+                <h4>BMW E90</h4>
+                <p class="text-card">Student starter pack</p>
+            </div>
+        </section>
+
+        <section class="version-title">
+            <h1 class="title-2">NEW VERSION</h1>
+        </section>
+
+        <section class="photo">
+            <div class="card fit-height H-auto">
+                <img class="g20" src="./assets/images/bmw-g20.jpg" alt="bmw-g20" id="bmwG20">
+                <h4>BMW G20</h4>
+                <p class="text-card">Businessman</p>
+            </div>
+
+            <div class="card fit-height H-auto">
+                <img class="i8" src="./assets/images/bmw-i8.jpg" alt="bmw-i8">
+                <h4>BMW i8</h4>
+                <p class="text-card">Rich people only</p>
+            </div>
+
+            <div class="card fit-height H-auto">
+                <img class="m3" src="./assets/images/bmw-m3.jpg" alt="bmw-m3">
+                <h4>BMW M3</h4>
+                <p class="text-card">Ready to race</p>
+            </div>
+
+            <div class="card fit-height H-auto">
+                <img class="m4" src="./assets/images/bmw-m4.jpg" alt="bmw-m4">
+                <h4>BMW M4</h4>
+                <p class="text-card">Fast and Stylish</p>
+            </div>
+        </section>
+
+        <section class="version-title">
+            <h1 class="title-2">REGISTER TO OUR COMMUNITY</h1>
+        </section>
+
+        <!-- Form Content -->
+        <section class="form-field">
+            <form id="form">
+                <fieldset class="container-form-1">
+                    <legend>Personal Data: </legend>
+                    <div class="form-input">
+                        <label for="fullName" nama="fullname">Full Name: </label>
+                        <input class="box-input" type="text" id="fullName" name="fullname" required>
+                    </div>
+
+                    <div class="form-input">
+                        <label for="eMail">Email: </label>
+                        <input class="box-input" type="email" id="eMail" name="mail" required>
+                    </div>
+
+                    <div class="birth-date">
+                        <label for="birthDate">Date of Birth: </label>
+                        <input type="date" class="box-input" id="birthDate" name="date-of-birth" required>
+                    </div>
+
+                    <div class="radio-btn-form">
+                        <label>Are you living in Indonesia?</label>
+                        <div class="radio-btn">
+                            <label style="margin-right: 10px;">
+                                <input type="radio" name="indonesia" value="yes"> Yes
+                            </label>
+                            <label>
+                                <input type="radio" name="indonesia" value="no"> No
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="container-form-1">
+                    <legend>Additional Information: </legend>
+                    <div class="checkbox-form">
+                        <div class="opt-group">
+                            <p>What is your favorite?</p>
+                            <select id="cars" name="cars">
+                                <option value="e30">E30</option>
+                                <option value="e36">E36</option>
+                                <option value="e46">E46</option>
+                                <option value="e90">E90</option>
+                                <option value="g20">G20</option>
+                                <option value="i8">i8</option>
+                                <option value="m3">M3</option>
+                                <option value="m4">M4</option>
+                            </select>
+                        </div>
+
+                        <div class="text-favorite">
+                            <p>Which one do you think is the best?</p>
+                        </div>
+
+                        <div class="checkbox-input">
+                            <input id="e30" type="checkbox" name="type" value="E30">
+                            <label for="e30">E30</label>
+                            <input id="e36" type="checkbox" name="type" value="E36">
+                            <label for="e36">E36</label>
+                            <input id="e46" type="checkbox" name="type" value="E46">
+                            <label for="e46">E46</label>
+                            <input id="e90" type="checkbox" name="type" value="E90">
+                            <label for="e90">E90</label>
+                            <input id="g20" type="checkbox" name="type" value="G20">
+                            <label for="g20">G20</label>
+                            <input id="i8" type="checkbox" name="type" value="i8">
+                            <label for="i8">i8</label>
+                            <input id="m3" type="checkbox" name="type" value="M3">
+                            <label for="m3">M3</label>
+                            <input id="m4" type="checkbox" name="type" value="M4">
+                            <label for="m4">M4</label>
+                        </div>
+                    </div>
+
+                    <div class="form-input">
+                        <p>Tell us why you like BMW!</p>
+                        <textarea class="txt-area" name="text" id="text" cols="50" rows="5"></textarea>
+                    </div>
+                </fieldset>
+
+                <div class="btn-submit">
+                    <button type="submit">SUBMIT</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h5>&copy; Gusti Treshana Herman 2023</h5>
+        <h5>&copy; Gusti Treshana Herman 2023</h5>
+        <h5>&copy; Gusti Treshana Herman 2023</h5>
+        <h5>&copy; Gusti Treshana Herman 2023</h5>
+        <h5>&copy; Gusti Treshana Herman 2023</h5>
+        <h5>&copy; Gusti Treshana Herman 2023</h5>
+        <h5>&copy; Gusti Treshana Herman 2023</h5>
+        <h5>&copy; Gusti Treshana Herman 2023</h5>
+        <h5>&copy; Gusti Treshana Herman 2023</h5>
+        <h5>&copy; Gusti Treshana Herman 2023</h5>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
