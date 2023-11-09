@@ -1,4 +1,4 @@
-# Netlify Registration and Deployment Tutorial
+# Netlify Registration and Deployment with Cloudflare Domain Connection
 
 ---
 
