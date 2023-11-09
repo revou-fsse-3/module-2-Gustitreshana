@@ -63,9 +63,34 @@ Once of your project is set up, each time you push change to your repository, Ne
 
 ---
 
+## Connecting Netlify with Cloudflare
+
+1. Go to [Cloudflare](https://www.cloudflare.com/) and log in to your account.
+![login-cloudflare](/Week-3-4/assets/images/Login-Cloudflare.png)
+
+2. In Cloudflare, add the domain you want to connect to your Netlify site.
+![add-domain](/Week-3-4/assets/images/add-domain.png)
+
+3. Select your plan
+![select-plan](/Week-3-4/assets/images/select-plan.png)
+
+4. Continue follow the instructions
+![Add-DNS-Record](/Week-3-4/assets/images/DNS-Record.png)
+![Update-Name-Server](/Week-3-4/assets/images/Change-Name-server.png)
+
+5. Update Nameserver from Cloudflare at Niagahoster
+![update-name-server](/Week-3-4/assets/images/Update-Name-Server-Niagahoster.png)
+
+6. Wait until Nameserver updated
+![wait-pending](/Week-3-4/assets/images/Wait-Update-Server.png)
+
+---
+
 ## Colclusion
 
 Using Netlify, the process of the hosting and deploying websites becomes more straightforward and efficient. The platform is very useful for the webdevelopers to speed up deployment processes and integration with various VCS (Version Control System) Services.
+
+Congratulations! You have successfully registered on Netlify, deployed a site, and connected your domain with Cloudflare. Your website should now be accessible via your custom domain, with the added performance and security benefits of Cloudflare.
 
 ---
 
