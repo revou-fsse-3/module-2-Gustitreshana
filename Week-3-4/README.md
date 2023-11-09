@@ -14,6 +14,7 @@ This tutorial guides you through the process on registering on Netlify an the st
 - Netlify Registration
 - Creating a New Project
 - Deploying Your Project
+- Connecting Netlify with Cloudflare
 - Conclusion
 
 ---
