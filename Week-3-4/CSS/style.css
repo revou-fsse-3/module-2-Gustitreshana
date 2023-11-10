@@ -258,6 +258,31 @@ li>a:hover {
     transition: all 0.3s ease-in-out;
 }
 
+/* List of Content */
+.container-list-content {
+    background-color: #cccccc1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-list-content>ul>li {
+    padding: 10px;
+    list-style-type: square;
+    letter-spacing: 10px;
+    font-family: "Monserrat";
+    font-weight: 500;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px #008ac9;
+    color: #222;
+    
+}
+
+.dark.wrapper-list-content li {
+    color: #fff;
+}
+
 /* GALLERY BMW */
 .slider-photo {
     overflow: hidden;
