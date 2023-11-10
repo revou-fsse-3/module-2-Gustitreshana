@@ -43,4 +43,8 @@ const textBmwSeries = document.querySelector(".popular-card"), toggle2 = documen
 toggle2.addEventListener("click", () => {
     textBmwSeries.classList.toggle("dark")
 })
+const textListContent = document.querySelector(".wrapper-list-content"), toggle3 = document.querySelector(".toggle")
+toggle3.addEventListener("click", () => {
+    textListContent.classList.toggle("dark")
+})
 toggle.addEventListener("click", () => toggle.classList.toggle("active"))
