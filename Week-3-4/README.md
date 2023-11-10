@@ -85,6 +85,10 @@ Once of your project is set up, each time you push change to your repository, Ne
 6. Wait until Nameserver updated
 ![wait-pending](/Week-3-4/assets/images/Wait-Update-Server.png)
 
+7. Netlify DNS and Cloudflare Nameserver updated!
+![Netlify-done](/Week-3-4/assets/images/Netlify-done.png)
+![Cloudflare-done](/Week-3-4/assets/images/Cloudflare-Done.png)
+
 ---
 
 ## Colclusion
